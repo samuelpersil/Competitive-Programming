@@ -1,0 +1,17 @@
+Math:
+	equacoes diofantinas
+	teorema do resto chinês
+	verificar totient
+
+algoritmos:
+	Busca ternária
+
+ED:
+	segtree recursiva
+	segtree lazy
+	prefix-sum
+
+TN em geral e do handbook
+Combinatória
+Geometria
+Revisar a seglazy

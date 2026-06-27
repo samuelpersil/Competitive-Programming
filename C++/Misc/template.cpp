@@ -1,28 +1,28 @@
 #include <bits/stdc++.h>
+#define fastio ios::sync_with_stdio(0); cin.tie(nullptr); cout.tie(nullptr);
 #define ll long long
-#define ff first
-#define ss second
-#define ld long double
-#define pb push_back
-#define sws cin.tie(0)->sync_with_stdio(false);
 #define endl '\n'
+#define F first
+#define S second
+#define all(x) x.begin(), x.end()
+#define pb push_back
 
 using namespace std;
 
-const int N = 0;
-const ll MOD = 998244353;
-const int INF = 0x3f3f3f3f;
-const ll LLINF = 0x3f3f3f3f3f3f3f3f;
+const int oo =  1e9;
+const ll OO = 1e18;
 
-int32_t main() {
-    #ifndef LOCAL
-    sws;
-    #endif
+typedef vector<int> vi;
+typedef vector<ll> vll;
+typedef pair<int, int> pii;
+typedef pair<ll, ll> pll;
+typedef vector<pll> vpll;
+typedef vector<pii> vpii;
 
-    return 0;
+signed main(){fastio
+	//code
+	//comes
+	//here
+
+	return 0;
 }
-
-// ulimit -s unlimited
-// alias comp="g++ -std=c++20 -fsanitize=address -O2 -o out"
-// #pragma GCC optimize("O3,unroll-loops")
-// #pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")

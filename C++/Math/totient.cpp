@@ -1,5 +1,5 @@
-// phi(p^k) = (p^(k-1))*(p-1) com p primo
 // O(sqrt(m))
+// phi(p^k) = (p^(k-1))*(p-1) com p primo
 ll phi(ll m){
     ll res = m;
     for(ll d=2;d*d<=m;d++){

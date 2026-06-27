@@ -8,6 +8,3 @@
 # Algorithms
 meet in the middle
 
-# Math
-crivo
-

@@ -1,4 +1,4 @@
-// Least significant bit (lsb)
+/ Least significant bit (lsb)
     int lsb(int x) { return x&-x; }
     int lsb(int x) { return __builtin_ctz(x); } // bit position
 // Most significant bit (msb)
@@ -23,3 +23,18 @@ __builtin_clzll()
 // Number of trailing zeros
 __builtin_ctz()
 __builtin_ctzll()
+
+//parity  number of ones
+__builtin_parity( x)
+
+//set representation
+for (int i = 0; i < 32; i++) {
+	if (x&(1<<i)) cout << i << " ";
+}
+
+/* set operations
+intersection 		a&b
+union 				a|b
+complement 			~a
+difference 			a & (~ b)
+*/
