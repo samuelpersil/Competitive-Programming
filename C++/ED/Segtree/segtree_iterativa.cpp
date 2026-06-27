@@ -1,4 +1,4 @@
-//Realiza consultas e atualizações em um índice em O(log(n))
+//Realiza consultas e atualizacoes em um indice em O(log(n))
 //0-Indexed
 //Valores iniciais sao salvos em (seg[n], ..., seg[2*n - 1])
 //Query: retorna a operacao f aplicada no intervalo [l, r]
@@ -42,7 +42,7 @@ struct Segtree {
     }
 };
 
-//Para ler os dados iniciais da árvore, usar:
+//Para ler os dados iniciais da arvore, usar:
 for(int i = 0; i < n; i++){
     cin >> tree[i + n];
 }
