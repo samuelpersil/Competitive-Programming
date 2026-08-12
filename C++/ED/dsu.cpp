@@ -1,3 +1,5 @@
+//O(a(n)), funcao inversa de Ackermann, amortizado em O(1)
+//thiagodfs
 struct DSU {
     int n;
     vector<int> parent, size;

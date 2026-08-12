@@ -1,4 +1,5 @@
 // O(sqrt(m))
+// thiagodfs
 // phi(p^k) = (p^(k-1))*(p-1) com p primo
 ll phi(ll m){
     ll res = m;

@@ -21,9 +21,9 @@ ll fexp(ll a, ll b){
     ll result = 1;
 
     while(b > 0){
-        if(b % 2 == 1) result = (result * a) % MOD;
+        if(b & 1) result = (result * a) % MOD;
         a = (a * a) % MOD;
-        b /= 2;
+        b >>= 1;
     }
 
     return result;
