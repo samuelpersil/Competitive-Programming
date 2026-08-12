@@ -14,5 +14,8 @@ template<class T> using ordered_set = tree<T, null_type, less<T>, rb_tree_tag, t
 template<class T> using ordered_set = tree<T, null_type, greater<T>, rb_tree_tag, tree_order_statistics_node_update>; // descending order
 template<class T> using ordered_multiset = tree<T, null_type, less_equal<T>, rb_tree_tag, tree_order_statistics_node_update>;
 
+// Declaracao
+ordered_multiset<int> os;
+
 // Deletar elemento em multiset
-ss.erase(ss.find_by_order(ss.order_of_key(x)));
+os.erase(os.find_by_order(os.order_of_key(x)));
