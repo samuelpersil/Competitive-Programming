@@ -13,10 +13,10 @@ distance[start] = 0;
 q.push(start);
 
 while(!q.empty()){
-	int u = q.top(); q.pop();
+	int u = q.front(); q.pop();
 
 	for(auto s : adj[u]){
-		if(visited(s)) continue;
+		if(visited[s]) continue;
 		visited[s] = true;
 		distance[s] = distance[u] + 1;
 		q.push(s);

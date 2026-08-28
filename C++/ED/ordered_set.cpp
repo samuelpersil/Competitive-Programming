@@ -10,8 +10,13 @@
 #include <ext/pb_ds/tree_policy.hpp>
 using namespace __gnu_pbds;
 
+//ascending order
 template<class T> using ordered_set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
-template<class T> using ordered_set = tree<T, null_type, greater<T>, rb_tree_tag, tree_order_statistics_node_update>; // descending order
+
+//descending order
+template<class T> using ordered_set = tree<T, null_type, greater<T>, rb_tree_tag, tree_order_statistics_node_update>;
+
+//multiset
 template<class T> using ordered_multiset = tree<T, null_type, less_equal<T>, rb_tree_tag, tree_order_statistics_node_update>;
 
 // Declaracao
